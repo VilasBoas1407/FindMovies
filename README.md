@@ -4,23 +4,36 @@
 	
   # Descrição✏
   ##### API
+  
   A API que utilizei para esse projeto: https://www.themoviedb.org/documentation/api. <br>
 Para utilizar é necessário realizar um cadastro no site deles:
 https://www.themoviedb.org/account/signup <br>
 Após realizar o cadastro, e na parte de Configurações, vai ter um campo API Key(v3 auth):<br>
-https://www.themoviedb.org/settings/api
+https://www.themoviedb.org/settings/api <br>
+<br>
+<img src="git.png"> 
 
-  ##### Vídeo Motivação
-  Desafio: 10 projetos rápidos para treinar Programação e conseguir um Emprego:	https://www.youtube.com/watch?v=fYR9L2ZmodM
+	Substituir API_KEY='{SUA_KEY}' no código.
+	Em Home/index.js.
+	
+
   # Instalação 
   ##### Clonar Repositório
 	git clone https://github.com/VilasBoas1407/FindMovies.git
 	
- ##### Instalar dependências
+ ##### Instalar dependências 📀
  	npm install 
- ##### Iniciar o projeto
+	
+ ##### Iniciar o projeto 📱
  	yarn start
 	ou
 	npm start
-	
-	
+
+# Links🌎
+	Yarn - https://yarnpkg.com/	
+	NodeJs - https://nodejs.org/en/
+##### GitHub Amigo do Trabalho	
+https://github.com/vitorahh
+
+ ##### Vídeo Motivação
+  Desafio: 10 projetos rápidos para treinar Programação e conseguir um Emprego:	https://www.youtube.com/watch?v=fYR9L2ZmodM
