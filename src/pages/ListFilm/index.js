@@ -1,10 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { AsyncStorage, KeyboardAvoidingView, Platform, Picker,StyleSheet} from 'react-native';
+import { AsyncStorage, KeyboardAvoidingView, Platform,Flatlist} from 'react-native';
 
 import api from '../../services/api';
 
-import {Background,Title,Text,TextButton,TextInput,Button,View,ViewInput} from './styles';
+import {Background,Title,View,TextLight} from './styles';
 
+import Movies from '../../components/Movies';
 import Loading from '../../components/loading';
 export default function Films({ navigation }) {
 
@@ -12,7 +13,8 @@ export default function Films({ navigation }) {
     const movies = navigation.state.params['movies'];
     const api_key = navigation.state.params['api_key'];
     const [loading,setLoading] = useState(false);
-  
+
+    console.log(movies);
 
   useEffect(() => {
   }, []);
@@ -23,6 +25,7 @@ export default function Films({ navigation }) {
         <Background>
             <View>
                 <Title>FindMovies</Title>
+                <Movies/>
             </View>
             <Loading loading={loading}/>
         </Background>

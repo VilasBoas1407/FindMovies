@@ -29,10 +29,10 @@ export default function Home({ navigation }) {
 
     setLoading(true);
       try{
-        const response = await api.get('/discover/movie?api_key='+ api_key +'&language='+idioma+'&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&year='+ ano);
+        const response = await api.get('/discover/movie?api_key='+ api_key +'&language='+idioma+'&sort_by=popularity.desc&include_adult=false&include_video=false&page=1&year='+ ano + '&with_genres=' + genre_id);
 
         if(response.data){
-          console.log("Teve response");
+
           setTimeout(function() { 
             setLoading(false);
             navigation.navigate('Films',{
