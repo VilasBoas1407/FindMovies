@@ -17,7 +17,7 @@ https://www.themoviedb.org/settings/api <br>
 	Em Home/index.js.
 	
 
-  # Instalação 
+  # Instalação ⚙
   ##### Clonar Repositório
 	git clone https://github.com/VilasBoas1407/FindMovies.git
 	
