@@ -11,22 +11,31 @@ function Movies({ navigation }) {
     console.log("Movies");
     console.log(movies);
     const list = movies.results;
+
+    function FormatText(string){
+      var num_caracter = string.length;
+      console.log(num_caracter);
+      return num_caracter;
+    }
   useEffect(() => {
+
   }, []);
 
   return (
     <View>
      <FlatList
         data={list}
-        renderItem={({ item }) => (
-          <Container>
-            <Imagem source={{ uri: url_img + item.poster_path }} />
-            <DivTitle><Title>{item.title}</Title></DivTitle>
-            <Text>{item.release_date}</Text>
-            <DivTitle><Text>{item.overview}</Text></DivTitle>
-            <Note>Nota: {item.vote_average} | Votos : {item.vote_count}</Note>
-          </Container>
-        )}
+        renderItem={({ item }) => {
+            return (       
+            <Container>
+              <Imagem source={{ uri: url_img + item.poster_path }} />
+              <DivTitle><Title>{item.title}</Title></DivTitle>
+              <Text>{item.release_date}</Text>
+              <DivTitle><Text>{item.overview.substring(0,170)}...</Text></DivTitle>
+              <Note>Nota: {item.vote_average} Votos : {item.vote_count}</Note>
+            </Container>);
+        }
+      }
       />
     </View>
   )

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { AsyncStorage, KeyboardAvoidingView, Platform, Picker,StyleSheet} from 'react-native';
+import { KeyboardAvoidingView, Platform, Picker} from 'react-native';
 
 import api from '../../services/api';
 

@@ -32,3 +32,9 @@ export const TextLight = styled.Text`
     margin-top: 40%;
     padding-bottom: 55px;
 `;
+
+export const Icon = styled.TouchableOpacity`
+    margin-left: 15%;
+    margin-top: 24%;
+    position:absolute;
+`;
