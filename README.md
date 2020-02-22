@@ -29,6 +29,15 @@ https://www.themoviedb.org/settings/api <br>
 	ou
 	npm start
 
+# O App📱
+	Telas do App:
+	Tela Principal, escolha o gênero e ano
+<img src="assets/tela_login.jfif" height="300">
+	Filmes:
+<img src="assets/lista_filmes.jfif" height="300">
+	Detalhes do filme:
+<img src="assets/detalhes.jfif" height="300">
+<img src="assets/youtube.jfif" height="300">
 # Links🌎
 	Yarn - https://yarnpkg.com/	
 	NodeJs - https://nodejs.org/en/
