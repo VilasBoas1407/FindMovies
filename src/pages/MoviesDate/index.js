@@ -20,7 +20,7 @@ export default function Movies({ navigation }) {
 
   const url_img = 'https://image.tmdb.org/t/p/w185_and_h278_bestv2/'
   const movies = navigation.state.params['movies'];
-  const api_key = '385c9b3a003d069a84052c198ad45806';
+  const api_key = '{SUA_API_KEY}';
 
   async function loadingData(){
     setLoading(true);  

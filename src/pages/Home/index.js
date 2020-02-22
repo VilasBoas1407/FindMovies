@@ -14,7 +14,7 @@ export default function Home({ navigation }) {
   const [idioma,setIdioma] = useState('');
   const [ano,setAno] = useState('');
   const [loading,setLoading] = useState(false);
-  const api_key = '385c9b3a003d069a84052c198ad45806';
+  const api_key = '{SUA_API_KEY}';
 
   async function getGenre(){
 
