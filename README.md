@@ -30,7 +30,7 @@ https://www.themoviedb.org/settings/api <br>
 	npm start
 
 # O App📱
-	Telas do App:
+	Telas do App, está em inglês, por causa da API.
 	Tela Principal, escolha o gênero e ano
 <img src="assets/tela_login.jfif" height="300">
 	Filmes:
@@ -38,6 +38,7 @@ https://www.themoviedb.org/settings/api <br>
 	Detalhes do filme:
 <img src="assets/detalhes.jfif" height="300">
 <img src="assets/youtube.jfif" height="300">
+
 # Links🌎
 	Yarn - https://yarnpkg.com/	
 	NodeJs - https://nodejs.org/en/
