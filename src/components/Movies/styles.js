@@ -42,3 +42,14 @@ export const Note = styled.Text`
     margin-top:200px;
     position: absolute;
 `;
+
+export const Link = styled.TouchableOpacity`
+    margin-left:30px;
+`;
+
+export const TextLink = styled.Text`
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    color: #FF0000;
+`;

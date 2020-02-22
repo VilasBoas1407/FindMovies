@@ -18,7 +18,7 @@ export const TextButton = styled.Text`
 `;
 
 export const Background = styled.View`
-    background-color: #000000;
+    background-color: #1F1F1F;
     height: 100%;
     width: 100%;
 `;

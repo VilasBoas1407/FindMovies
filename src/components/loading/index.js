@@ -13,8 +13,7 @@ export default function Loader(props) {
     <Modal
       transparent={true}
       animationType={'none'}
-      visible={loading}
-      onRequestClose={() => {console.log('close modal')}}>
+      visible={loading}>
       <Background >
         <View>
           <LottieView source={animation} autoPlay resizeMode='contain' style={StyleSheet.create({width:200, height:200})}/>     

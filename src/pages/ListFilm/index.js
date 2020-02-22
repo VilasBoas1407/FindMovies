@@ -15,8 +15,6 @@ export default function Films({ navigation }) {
     const api_key = navigation.state.params['api_key'];
     const [loading,setLoading] = useState(false);
 
-    console.log(movies);
-
     function BackHome (){
       navigation.navigate('Home');
     }
